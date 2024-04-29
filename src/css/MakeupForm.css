@@ -1,0 +1,119 @@
+.Makeup-form {
+    padding: 1rem 4rem;
+  }
+  
+  .Makeup-form input[type="text"],
+  .Makeup-form select {
+    /* min-width: 0; */
+    border-radius: 0.5em;
+    outline: transparent;
+    border: 1px solid black;
+    padding: 0.25em 1em;
+  }
+  
+  .Makeup-form input#studentID {
+    width: 100px;
+  }
+  
+  .Makeup-form input#description,
+  .Makeup-form input#remarks {
+    width: 100%;
+  }
+  
+  .Makeup-form input#amount-students {
+    flex: 0;
+    width: 100px;
+  }
+  
+  .Makeup-form input#amount {
+    flex: 0;
+    width: 100px;
+    margin-left: 1.2rem;
+  }
+  
+  .Makeup-form .container {
+    width: min(90%, 50rem);
+    margin-inline: auto;
+    text-align: center;
+  }
+  
+  .Makeup-form .header {
+    padding: 1rem;
+    background-color: f7ece6;
+    border-radius: 1em;
+    text-align: center;
+  }
+  
+  .Makeup-form .form section {
+    margin-top: 2em;
+  }
+  
+  .Makeup-form .form section > h2 {
+    text-align: left;
+  }
+  
+  .Makeup-form .form section > * {
+    margin-top: 1em;
+  }
+  
+  .Makeup-form .form section .list-equipment-input {
+    display: grid;
+    grid-template-columns: 3fr auto;
+    gap: 1em;
+  }
+  
+  
+  .Makeup-form .form section .input-field {
+    display: flex;
+    gap: 1rem;
+  }
+  .Makeup-form .form section .input-field input[type="text"] {
+    flex: 1;
+  }
+  
+  
+  .Makeup-form .form .submit-btn {
+    cursor: pointer;
+    padding: 0.5em 2em;
+    border-radius: 1em;
+    border-color: transparent;
+    background-color: grey;
+    color: white;
+    margin-top: 2em;
+  }
+  
+  .Makeup-form .show-description-list {
+    margin-top: 2rem;
+    background-color: #f7ece6;
+    padding: 2rem;
+    border-radius: 1em;
+    font-weight: bolder;
+  }
+  
+  .Makeup-form .show-description-list > * {
+    display: flex;
+  }
+  
+  .Makeup-form .show-description-list .row.first {
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid grey;
+  }
+  
+  .Makeup-form .show-description-list .row:not(:first-child) {
+    margin-top: 1rem;
+  }
+  
+  .Makeup-form .show-description-list .row > * {
+    flex-basis: 25%;
+  }
+  
+  .Makeup-form .show-description-list .row > .descrip {
+    flex-basis: 40%;
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+  
+  .Makeup-form .show-description-list .row > .number {
+    flex-basis: 10%;
+  }
+  

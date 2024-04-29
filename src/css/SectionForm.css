@@ -1,0 +1,137 @@
+.request-form {
+    padding: 1rem 4rem;
+  }
+  
+.request-form input[type="text"],
+.request-form select {
+    /* min-width: 0; */
+    border-radius: 0.5em;
+    outline: transparent;
+    border: 1px solid black;
+    padding: 0.25em 1em;
+  }
+  
+.request-form input#studentID {
+    width: 100px;
+  }
+  
+.request-form input#description,
+.request-form input#remarks {
+    width: 100%;
+  }
+  
+.request-form input#amount-students {
+    flex: 0;
+    width: 100px;
+  }
+  
+.request-form input#amount {
+    flex: 0;
+    width: 100px;
+    margin-left: 1.2rem;
+  }
+  
+.request-form .container {
+    width: min(90%, 50rem);
+    margin-inline: auto;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
+.request-form .header {
+    padding: 1rem;
+    background-color: f7ece6;
+    border-radius: 1em;
+    text-align: center;
+  }
+  
+.request-form .form section {
+    margin-top: 2em;
+    min-height: 10em;
+    overflow: auto;
+  }
+  
+.request-form .form section > h2 {
+    text-align: left;
+  }
+  
+.request-form .form section > * {
+    margin-top: 1em;
+  }
+  
+.request-form .form section .list-equipment-input {
+    display: grid;
+    grid-template-columns: 3fr auto;
+    gap: 1em;
+  }
+  
+.request-form .form section .input-field {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+.request-form .form section .input-field input[type="text"] {
+    flex: 1;
+  }
+  
+.request-form .form section .list-equipment-input .add-equip-btn {
+    cursor: pointer;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    border: 1px solid black;
+    font-weight: bolder;
+    background-color: #f7ece6;
+  }
+  
+.request-form .form .Confirm-btn {
+    cursor: pointer;
+    padding: 0.5em 2em;
+    border-radius: 1em;
+    border-color: transparent;
+    background-color: grey;
+    color: white;
+    margin-top: 2em;
+  }
+  
+.request-form .show-description-list {
+    margin-top: 2rem;
+    background-color: #f7ece6;
+    padding: 2rem;
+    border-radius: 1em;
+    font-weight: bolder;
+  }
+  
+.request-form .show-description-list > * {
+    display: flex;
+  }
+  
+.request-form .show-description-list .row.first {
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid grey;
+  }
+  
+.request-form .show-description-list .row:not(:first-child) {
+    margin-top: 1rem;
+  }
+  
+.request-form .show-description-list .row > * {
+    flex-basis: 25%;
+  }
+  
+.request-form .show-description-list .row > .descrip {
+    flex-basis: 40%;
+    word-break: break-all;
+    word-wrap: break-word;
+  }
+  
+.request-form .show-description-list .row > .number {
+    flex-basis: 10%;
+  }
+
+body, html {
+    overflow-x: visible; /* Allows horizontal overflow */
+    overflow-y: auto; /* Allows vertical scrolling if content is taller than the screen */
+}
+  

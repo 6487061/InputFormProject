@@ -2,16 +2,15 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import "../css/Navbar.css";
 import "../css/Dashbroad.css";
-import BorrowingForm from "../components/BorrowingForm";
+import ExamForm from "../components/ExamForm";
 
-function BorrowingFormControl() {
+function ExamFormControl() {
   return (
     <div>
       <Navbar />
-      <BorrowingForm />
-      
+      <ExamForm />
     </div>
   );
 }
 
-export default BorrowingFormControl;
+export default ExamFormControl;

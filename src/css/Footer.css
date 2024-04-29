@@ -1,0 +1,15 @@
+.footer-link .footer {
+    background-color: #D8B7A2;
+    min-height: 86px;
+    margin-top: 2px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+  
+@media (max-width: 991px) {
+    .footer {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }
