@@ -22,7 +22,7 @@ function Navbar() {
               </NavLink>
             </li>
           </a>
-          <li>Admin</li>
+          <li>History</li>
           <li>Tacking</li>
         </div>
         <div id="nav-info">
@@ -36,6 +36,9 @@ function Navbar() {
           </div>
         </div>
       </nav>
+      <footer className="bottom-nav">
+        <div class="nav-line"></div>
+      </footer>
     </>
   );
 }

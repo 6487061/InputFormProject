@@ -20,6 +20,7 @@ const BorrowingForm = () => {
     ]);
   };
   return (
+
     <div className="request-form">
       <div className="container">
         <header className="header">
@@ -151,8 +152,8 @@ const BorrowingForm = () => {
               <input type="text" id="amount-students" />
             </div>
           </section>
-          <button type="submit" className="submit-btn">
-            Submit
+          <button type="Confirm" className="Confirm-btn">
+            Confirm
           </button>
         </form>
       </div>

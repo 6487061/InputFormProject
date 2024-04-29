@@ -9,6 +9,7 @@ function BorrowingFormControl() {
     <div>
       <Navbar />
       <BorrowingForm />
+      
     </div>
   );
 }
