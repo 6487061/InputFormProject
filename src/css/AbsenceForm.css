@@ -1,0 +1,93 @@
+.absence-information,
+.input-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px; /* หรือค่าที่เหมาะสมกับการออกแบบของคุณ */
+}
+
+.absence-information .instructor-input,
+.input-group input[type="text"] {
+  flex: 1;
+  min-width: 0; /* อนุญาตให้ input ยุบตัวได้ในกรณีที่พื้นที่มีจำกัด */
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* จัดการกับข้อความ "Academic Year:" ให้มีพื้นที่เท่ากันระหว่างข้อความกับ input */
+.input-group label {
+  white-space: nowrap; /* ป้องกันข้อความจากการ wrap */
+}
+
+/* ตรวจสอบให้แน่ใจว่าฟอร์ม responsive บนหน้าจอขนาดเล็ก */
+@media (max-width: 768px) {
+  .absence-information,
+  .input-group {
+    flex-direction: column;
+  }
+
+  .absence-information label,
+  .input-group label {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .absence-information .instructor-input,
+  .input-group input[type="text"] {
+    width: 100%;
+    max-width: none; /* อนุญาตให้ input ขยายเต็มความกว้าง */
+  }
+}
+
+.a {
+  text-align: left;
+}
+
+.additional-info{
+  padding-left: 100px;
+  line-height: 2.1;
+}
+
+.red_text{
+  color: red;
+  font-size: small;
+}
+
+.attachment-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.attachment-section input[type="file"] {
+  margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+.checkbox-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox-section > div {
+  margin-bottom: 5px; /* Adjust the space between checkboxes as needed */
+}
+
+.custom-file-upload {
+  padding: 3px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  /* Add more styling as needed */
+}
+
+#file-upload {
+  display: none; /* Hide the default input */
+}
+
+.file-upload-btn:hover .custom-file-upload {
+  /* Style for hover state */
+  background-color: #f0f0f0;
+}
